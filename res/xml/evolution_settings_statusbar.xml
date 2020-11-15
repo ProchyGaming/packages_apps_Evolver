@@ -35,6 +35,12 @@
             android:summary="@string/battery_bar_summary"
             android:fragment="com.evolution.settings.fragments.BatteryBarSettings" />
 
+        <Preference
+            android:key="carrier_label"
+            android:title="@string/carrier_label_settings_title"
+            android:summary="@string/carrier_label_settings_summary" 
+            android:fragment="com.evolution.settings.fragments.CarrierLabel" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -58,15 +58,15 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item> 
+        <item>3</item>
         <item>4</item>
         <item>5</item>
         <item>6</item>
-        <item>7</item> 
+        <item>7</item>
         <item>8</item>
         <item>9</item>
         <item>10</item>
-        <item>11</item> 
+        <item>11</item>
         <item>12</item>
         <item>13</item>
         <item>14</item>
@@ -524,8 +524,8 @@
 
     <!-- QS Header data uasge -->
     <string-array name="qs_datausage_entries" translatable="false">
-        <item>@string/qs_datausage_disabled</item> 
-        <item>@string/qs_datausage_daily</item> 
+        <item>@string/qs_datausage_disabled</item>
+        <item>@string/qs_datausage_daily</item>
         <item>@string/qs_datausage_monthly</item>
     </string-array>
 
@@ -533,5 +533,19 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+
+    <!-- Carrier Label -->
+    <string-array name="carrier_label_entries" translatable="false">
+        <item>@string/show_carrier_disabled</item>
+        <item>@string/show_carrier_keyguard</item>
+        <item>@string/show_carrier_statusbar</item>
+        <item>@string/show_carrier_enabled</item>
+    </string-array>
+    <string-array name="carrier_label_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 </resources>
