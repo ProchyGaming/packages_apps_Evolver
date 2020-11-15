@@ -74,12 +74,10 @@ public class CarrierLabel extends SettingsPreferenceFragment
         int showCarrierLabel = Settings.System.getInt(resolver,
         Settings.System.STATUS_BAR_SHOW_CARRIER, 1);
         CharSequence[] NonNotchEntries = { getResources().getString(R.string.show_carrier_disabled),
-                getResources().getString(R.string.show_carrier_keyguard),
-                getResources().getString(R.string.show_carrier_statusbar), getResources().getString(
-                        R.string.show_carrier_enabled) };
+                getResources().getString(R.string.show_carrier_keyguard) };
         CharSequence[] NotchEntries = { getResources().getString(R.string.show_carrier_disabled),
                 getResources().getString(R.string.show_carrier_keyguard) };
-        CharSequence[] NonNotchValues = {"0", "1" , "2", "3"};
+        CharSequence[] NonNotchValues = {"0", "1"};
         CharSequence[] NotchValues = {"0", "1"};
         mShowCarrierLabel.setEntries(EvolutionUtils.hasNotch(getActivity()) ? NotchEntries : NonNotchEntries);
         mShowCarrierLabel.setEntryValues(EvolutionUtils.hasNotch(getActivity()) ? NotchValues : NonNotchValues);
@@ -107,10 +105,6 @@ public class CarrierLabel extends SettingsPreferenceFragment
             mShowCarrierLabel.setSummary(res.getString(R.string.show_carrier_disabled));
         } else if (value == 1) {
             mShowCarrierLabel.setSummary(res.getString(R.string.show_carrier_keyguard));
-        } else if (value == 2) {
-            mShowCarrierLabel.setSummary(res.getString(R.string.show_carrier_statusbar));
-        } else if (value == 3) {
-            mShowCarrierLabel.setSummary(res.getString(R.string.show_carrier_enabled));
         }
     }
 

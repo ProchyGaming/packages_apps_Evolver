@@ -589,6 +589,4 @@
     <string name="show_carrier_title">Carrier label location</string>
     <string name="show_carrier_disabled">Disabled</string>
     <string name="show_carrier_keyguard">Lockscreen</string>
-    <string name="show_carrier_statusbar">Statusbar</string>
-    <string name="show_carrier_enabled">Both</string>
 </resources>
